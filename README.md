@@ -13,9 +13,9 @@ A Python-based tool that connects to a Gmail inbox using the Gmail API, scans re
 
 ### 1. Clone the Repo
 
-```bash
+<pre> ```bash
 git clone https://github.com/your-username/gmail-lead-extractor.git
-cd gmail-lead-extractor
+cd gmail-lead-extractor<pre> ``` </pre>
 
 ## ⚙️ Setup Instructions
 
@@ -33,7 +33,33 @@ No external dependencies required — this script runs entirely on Python 3 and 
 
 Open the script and replace the placeholders with your credentials and desired search criteria:
 
-```python
+<pre> ```python
 EMAIL = "your-email@gmail.com"
 PASSWORD = "your-app-password"
-SEARCH_QUERY = '(FROM "example@example.com")'
+SEARCH_QUERY = '(FROM "example@example.com")``` </pre>
+
+### 5. Run the Script
+
+<pre> ``` python extract_leads.py ``` </pre>
+
+### 6. Output
+
+Extracted, deduplicated emails are saved to: **extracted_leads.csv**
+
+### 7. Ethical Use & Disclaimer
+
+This script is for ethical, permission-based email lead gathering only. Always comply with privacy laws (e.g., GDPR, CAN-SPAM). Do not use this tool to scrape or spam.
+
+### 8. Notes
+T
+he script processes up to 2500 emails by default (adjustable).
+
+Progress and error handling are included.
+
+Save interval set to 1000 emails for efficiency.
+
+### License
+MIT License
+
+Made by Anoushka Singh
+
