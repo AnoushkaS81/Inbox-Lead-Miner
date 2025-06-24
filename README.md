@@ -1,21 +1,19 @@
 # Inbox-Lead-Miner
 A Python-based tool that connects to a Gmail inbox using the Gmail API, scans received messages, and extracts sender email addresses. Ideal for building lead lists for email campaigns. Helps automate prospecting by collecting emails of people who contacted you. Designed for ethical and permission-based marketing.
 
-## 🔍 What It Does
+## What It Does
 - Connects securely to your Gmail inbox using IMAP  
 - Searches messages based on a custom query (e.g., specific sender or keyword)  
 - Parses email content to extract email addresses using regex  
 - Deduplicates results and exports them to a CSV file  
 - Logs progress and supports early stopping for large inboxes  
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repo
 <pre>bash
 git clone https://github.com/your-username/gmail-lead-extractor.git
 cd gmail-lead-extractor</pre>
-
-## ⚙️ Setup Instructions
 
 ### 2. Install Python Dependencies
 No external dependencies required — this script runs entirely on Python 3 and its standard library.
